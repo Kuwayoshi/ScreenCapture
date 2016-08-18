@@ -1,0 +1,14 @@
+﻿<Window x:Class="ScreenCapture.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" ContentRendered="Window_ContentRendered">
+    <Grid>
+        <!-- キャプチャ対象 -->
+        <DataGrid Name="dgTarget" Margin="0,0,0,0" Width="515" Height="130"
+                  HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!-- キャプチャ結果の表示先 -->
+        <Image Name="imgResult" Margin="0,160,0,0" Width="515" Height="130"
+               HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
